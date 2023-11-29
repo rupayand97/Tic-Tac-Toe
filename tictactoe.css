@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: rgb(68, 68, 119);
+}
+
+#box {
+    background: black;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box :hover {
+    background-color: rgb(68, 68, 119);
+    transform: scale(1);
+}
+
+#box button {
+    width: 150px;
+    height: 150px;
+    background: rgb(151, 164, 179);
+    font-size: 70px;
+
+}
